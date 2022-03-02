@@ -9,6 +9,7 @@ import java.util.*;
 		
 		문자열로 입력받아서 문자로 변환후 처리하세요.
 		Character.getNumericValue(char) = 문자를 숫자로
+		int a = str.charAt() - '0'; 문자를 숫자로 변경
 */
 
 public class ex08 {
@@ -19,7 +20,7 @@ public class ex08 {
 		String str = s.next();		
 		int sum = 0;
 				
-		for(int i = 0 ; i < 5 ; i++)
+		for(int i = 0 ; i < str.length() ; i++)
 		{
 			sum = Character.getNumericValue(str.charAt(i)) + sum;
 		}

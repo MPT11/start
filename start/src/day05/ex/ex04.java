@@ -33,10 +33,10 @@ public class ex04 {
 		
 		switch(code)
 		{
-		case 1 : total = 3800 + (245 * use);
-		case 2 : total = 2400 + (157 * use);
-		case 3 : total = 2900 + (169 * use);
-		case 4 : total = 3200 + (174 * use);
+		case 1 : total = 3800 + (245 * use);break;
+		case 2 : total = 2400 + (157 * use);break;
+		case 3 : total = 2900 + (169 * use);break;
+		case 4 : total = 3200 + (174 * use);break;
 		}
 		
 		System.out.println("당신의 이번달 전기료는 : " + total + "원 입니다");

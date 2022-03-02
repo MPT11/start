@@ -20,6 +20,11 @@ public class ex02 {
 			num = num+1;
 			eg = (char)num;
 		}
+		for(int i = 0 ; i <10 ; i++)
+		{
+			char ch = 'A';
+			System.out.print((char)(ch + i) + " ");
+		}
 	}
 
 }
